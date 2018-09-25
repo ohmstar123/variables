@@ -16,5 +16,23 @@ namespace variables
         {
             InitializeComponent();
         }
+
+        private void LebronButton_Click(object sender, EventArgs e)
+        {
+            string firstName = "Lebron James";
+            int number = 23;
+            outputLabel.Text = firstName + " is the number " + number;
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //the area of a circle is pi x radius x radius
+            string piName = "Pi";
+            string radiusName = "Radius";
+            string areaName = "Area";
+            outputLabel.Text = 
+            
+        }
     }
 }
