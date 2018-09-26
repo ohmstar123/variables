@@ -31,7 +31,7 @@ namespace variables
             string piName = "Pi";
             string radiusName = "Radius";
             string areaName = "Area";
-            outputLabel.Text = 
+            outputLabel.Text = areaName + " = " + piName + " x " + radiusName + " x " + radiusName;
             
         }
     }
