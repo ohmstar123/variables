@@ -33,6 +33,27 @@ namespace variables
             string areaName = "Area";
             outputLabel.Text = areaName + " = " + piName + " x " + radiusName + " x " + radiusName;
             
+
+
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double number1 = 8.5;
+            int number2 = 6;
+            int number3 = 51;
+            int number4 = 2;
+
+            double money1 = 19.95;
+            double money2 = 1017.45;
+
+            outputLabel.Text = " The area of a room with the dimensions " + number1 + " x " + number2 + " is " + number3 + " ^ " + number4; 
+                
+                
+                
+
+
         }
     }
 }
