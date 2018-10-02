@@ -60,7 +60,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(140, 67);
             this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
+            this.button3.Text = "Carpet";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 

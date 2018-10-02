@@ -48,7 +48,10 @@ namespace variables
             double money1 = 19.95;
             double money2 = 1017.45;
 
-            outputLabel.Text = " The area of a room with the dimensions " + number1 + " x " + number2 + " is " + number3 + " ^ " + number4; 
+            outputLabel.Text = " The area of a room with the dimensions " + number1 + " x " + number2 + " is " + number3 + " ^ " + number4;
+            outputLabel.Text += "\n";
+            outputLabel.Text += "\n";
+            outputLabel.Text += " The cost to carpet this area at " + money1 + " per square metre is " + money2.ToString("C");
                 
                 
                 
