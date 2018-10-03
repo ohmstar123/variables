@@ -32,6 +32,10 @@ namespace variables
             string radiusName = "Radius";
             string areaName = "Area";
             outputLabel.Text = areaName + " = " + piName + " x " + radiusName + " x " + radiusName;
+            double area = 2 * 2 * 3.14;
+
+            outputLabel.Text += "\n";
+            outputLabel.Text += "\n the area of a circle with the radius of 2 is " + area;
             
 
 
